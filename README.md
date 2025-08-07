@@ -41,14 +41,6 @@ The dataset consists of **1 million+ transactions** from over **800,000 customer
 - **Transaction amount**
 - **Transaction ID**
 
-To enable customer segmentation, I engineered five key variables based on the widely used **RFM (Recency, Frequency, Monetary)** framework:
-
-- `Age`: Calculated from the date of birth
-- `Recency`: Number of days since the customer's last transaction
-- `Frequency`: Total number of purchase transactions
-- `AvgMonetary`: Average amount spent per transaction
-- `TotalMonetary`: Total amount spent across all transactions
-
 ---
 
 ## 🧹 Data Cleaning & Feature Engineering
@@ -112,7 +104,7 @@ I selected **KMeans** for its:
 
 ### 📊 Clustering Summary
 
-I applied K-Means clustering with `k=4` on scaled features from the customer profile dataset. The segmentation was visualized using two feature pairs:
+I applied K-Means clustering with `k=4`(identified in the elbow plot above) on scaled features from the customer profile dataset. The segmentation was visualized using two feature pairs:
 
 - **AvgMonetary vs Recency**
 - **TotalMonetary vs Frequency**
