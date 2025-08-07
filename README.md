@@ -24,6 +24,7 @@ Banks serve a broad and diverse customer base. However, treating all customers t
 - `pandas`, `numpy`, `matplotlib`, `seaborn`
 - `scikit-learn`
 - `scipy`
+- Segmentation Approach: https://www.researchgate.net/publication/328533235_A_customer_segmentation_approach_in_commercial_banks
 
 ---
 
